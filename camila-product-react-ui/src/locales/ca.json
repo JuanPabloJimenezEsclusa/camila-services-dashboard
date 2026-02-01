@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "Tauler de Productes Camila",
+    "searchById": "Cerca per ID",
+    "searchPlaceholder": "Introduïu l'ID intern del producte",
+    "searchButton": "Cerca",
+    "clearButton": "Neteja",
+    "loading": "Carregant...",
+    "loadingProduct": "Carregant producte...",
+    "loadingProducts": "Carregant productes...",
+    "auth": {
+      "loginRequired": "Iniciar Sessió",
+      "loginMessage": "Accedeix al teu Panell d'Anàlisi de Productes",
+      "loginButton": "Iniciar Sessió",
+      "logout": "Tancar Sessió",
+      "authenticating": "Autenticant...",
+      "profile": "Perfil",
+      "feature1": "Anàlisi en Temps Real",
+      "feature2": "Cerca Avançada",
+      "feature3": "APIs Multi-Protocol",
+      "footerText": "JPJE - Plataforma Empresarial de Gestió de Productes"
+    },
+    "rangeConfig": {
+      "title": "Configuració de Rang de Pesos",
+      "show": "Mostra",
+      "hide": "Amaga",
+      "settings": "Configuració",
+      "minWeight": "Pes Mínim",
+      "maxWeight": "Pes Màxim",
+      "range": "Rang"
+    },
+    "weightForm": {
+      "title": "Configuració de Pesos del Producte",
+      "salesUnits": "Pes d'Unitats Venudes",
+      "stock": "Pes d'Estoc",
+      "profitMargin": "Pes de Marge de Benefici",
+      "daysInStock": "Pes de Dies en Estoc",
+      "page": "Pàgina",
+      "pageSize": "Mida de Pàgina"
+    },
+    "product": {
+      "id": "ID",
+      "category": "Categoria",
+      "salesUnits": "Unitats Venudes",
+      "profitMargin": "Marge de Benefici",
+      "daysInStock": "Dies en Estoc",
+      "stock": "Estoc",
+      "total": "Total"
+    },
+    "products": "Productes",
+    "noProducts": "No s'han trobat productes amb la configuració de pesos actual.",
+    "theme": {
+      "light": "Mode Clar",
+      "dark": "Mode Fosc",
+      "toggle": "Canvia Tema"
+    },
+    "language": {
+      "title": "Idioma",
+      "en": "Anglès",
+      "es": "Espanyol",
+      "ca": "Català",
+      "de": "Alemany",
+      "pt": "Portuguès",
+      "ko": "Coreà",
+      "zh": "Xinès"
+    },
+    "charts": {
+      "title": "Visualització de Dades",
+      "salesUnits": "Unitats Venudes",
+      "stockTotal": "Estoc Total",
+      "salesVsStock": "Vendes vs Estoc",
+      "distributionByCategory": "Distribució per Categoria",
+      "salesByCategory": "Unitats Venudes per Categoria",
+      "stockByCategory": "Estoc Total per Categoria",
+      "salesDistribution": "Distribució de Vendes",
+      "noData": "No hi ha dades disponibles per mostrar gràfics",
+      "categoryPerformance": "Matriu de Rendiment per Categoria",
+      "intensityScale": "Escala d'Intensitat",
+      "low": "Baix",
+      "high": "Alt",
+      "heatmapDescription": "La intensitat del color representa valors mètrics normalitzats entre categories"
+    },
+    "seo": {
+      "description": "Tauler de Productes Camila - Sistema intel·ligent de classificació i rànquing de productes per a l'optimització de comerç electrònic."
+    },
+    "accessibility": {
+      "skipToContent": "Salta al contingut principal",
+      "loading": "Carregant contingut",
+      "loadedSuccess": "carregats amb èxit"
+    },
+    "apiSelector": {
+      "title": "Tipus d'API",
+      "restDescription": "Utilitzant endpoints d'API RESTful",
+      "graphqlDescription": "Utilitzant llenguatge de consulta GraphQL",
+      "grpcDescription": "Utilitzant gRPC RPC d'alt rendiment",
+      "rsocketDescription": "Utilitzant missatgeria reactiva RSocket"
+    },
+    "footer": {
+      "description": "Plataforma Empresarial de Gestió de Productes",
+      "license": "Llicència",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "Programari lliure i de codi obert",
+      "resources": "Recursos",
+      "protocols": "Protocols API",
+      "copyright": "Camila Services Dashboard. Tots els drets reservats.",
+      "builtWith": "Construït amb",
+      "using": "utilitzant"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "Camila Product Dashboard",
+    "searchById": "Search by ID",
+    "searchPlaceholder": "Enter product internal ID",
+    "searchButton": "Search",
+    "clearButton": "Clear",
+    "loading": "Loading...",
+    "loadingProduct": "Loading product...",
+    "loadingProducts": "Loading products...",
+    "auth": {
+      "loginRequired": "Sign In",
+      "loginMessage": "Access your Product Analytics Dashboard",
+      "loginButton": "Sign In",
+      "logout": "Log Out",
+      "authenticating": "Authenticating...",
+      "profile": "Profile",
+      "feature1": "Real-time Analytics",
+      "feature2": "Advanced Search",
+      "feature3": "Multi-Protocol APIs",
+      "footerText": "JPJE - Enterprise Product Management Platform"
+    },
+    "rangeConfig": {
+      "title": "Weight Range Configuration",
+      "show": "Show",
+      "hide": "Hide",
+      "settings": "Settings",
+      "minWeight": "Min Weight",
+      "maxWeight": "Max Weight",
+      "range": "Range"
+    },
+    "weightForm": {
+      "title": "Product Weight Configuration",
+      "salesUnits": "Sales Units Weight",
+      "stock": "Stock Weight",
+      "profitMargin": "Profit Margin Weight",
+      "daysInStock": "Days in Stock Weight",
+      "page": "Page",
+      "pageSize": "Page Size"
+    },
+    "product": {
+      "id": "ID",
+      "category": "Category",
+      "salesUnits": "Sales Units",
+      "profitMargin": "Profit Margin",
+      "daysInStock": "Days in Stock",
+      "stock": "Stock",
+      "total": "Total"
+    },
+    "products": "Products",
+    "noProducts": "No products found with the current weight configuration.",
+    "theme": {
+      "light": "Light Mode",
+      "dark": "Dark Mode",
+      "toggle": "Toggle Theme"
+    },
+    "language": {
+      "title": "Language",
+      "en": "English",
+      "es": "Spanish",
+      "ca": "Catalan",
+      "de": "German",
+      "pt": "Portuguese",
+      "ko": "Korean",
+      "zh": "Chinese"
+    },
+    "charts": {
+      "title": "Data Visualization",
+      "salesUnits": "Sales Units",
+      "stockTotal": "Stock Total",
+      "salesVsStock": "Sales vs Stock",
+      "distributionByCategory": "Distribution by Category",
+      "salesByCategory": "Sales Units by Category",
+      "stockByCategory": "Stock Total by Category",
+      "salesDistribution": "Sales Distribution",
+      "noData": "No data available to display charts",
+      "categoryPerformance": "Category Performance Matrix",
+      "intensityScale": "Intensity Scale",
+      "low": "Low",
+      "high": "High",
+      "heatmapDescription": "Color intensity represents normalized metric values across categories"
+    },
+    "seo": {
+      "description": "Camila Product Dashboard - Intelligent product ranking and classification system for e-commerce optimization."
+    },
+    "accessibility": {
+      "skipToContent": "Skip to main content",
+      "loading": "Loading content",
+      "loadedSuccess": "loaded successfully"
+    },
+    "apiSelector": {
+      "title": "API Type",
+      "restDescription": "Using RESTful API endpoints",
+      "graphqlDescription": "Using GraphQL query language",
+      "grpcDescription": "Using gRPC high-performance RPC",
+      "rsocketDescription": "Using RSocket reactive messaging"
+    },
+    "footer": {
+      "description": "Enterprise Product Management Platform",
+      "license": "License",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "Free and open source software",
+      "resources": "Resources",
+      "protocols": "API Protocols",
+      "copyright": "Camila Services Dashboard. All rights reserved.",
+      "builtWith": "Built with",
+      "using": "using"
+    }
+  }
+}
