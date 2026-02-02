@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "카밀라 제품 대시보드",
+    "searchById": "ID로 검색",
+    "searchPlaceholder": "제품 내부 ID 입력",
+    "searchButton": "검색",
+    "clearButton": "지우기",
+    "loading": "로딩 중...",
+    "loadingProduct": "제품 로딩 중...",
+    "loadingProducts": "제품 로딩 중...",
+    "auth": {
+      "loginRequired": "로그인",
+      "loginMessage": "제품 분석 대시보드에 액세스",
+      "loginButton": "로그인",
+      "logout": "로그아웃",
+      "authenticating": "인증 중...",
+      "profile": "프로필",
+      "feature1": "실시간 분석",
+      "feature2": "고급 검색",
+      "feature3": "멀티 프로토콜 API",
+      "footerText": "JPJE - 엔터프라이즈 제품 관리 플랫폼"
+    },
+    "rangeConfig": {
+      "title": "가중치 범위 설정",
+      "show": "보기",
+      "hide": "숨기기",
+      "settings": "설정",
+      "minWeight": "최소 가중치",
+      "maxWeight": "최대 가중치",
+      "range": "범위"
+    },
+    "weightForm": {
+      "title": "제품 가중치 설정",
+      "salesUnits": "판매 단위 가중치",
+      "stock": "재고 가중치",
+      "profitMargin": "이익률 가중치",
+      "daysInStock": "재고 일수 가중치",
+      "page": "페이지",
+      "pageSize": "페이지 크기"
+    },
+    "product": {
+      "id": "ID",
+      "category": "카테고리",
+      "salesUnits": "판매 단위",
+      "profitMargin": "이익률",
+      "daysInStock": "재고 일수",
+      "stock": "재고",
+      "total": "합계"
+    },
+    "products": "제품",
+    "noProducts": "현재 가중치 설정으로 제품을 찾을 수 없습니다.",
+    "theme": {
+      "light": "라이트 모드",
+      "dark": "다크 모드",
+      "toggle": "테마 전환"
+    },
+    "language": {
+      "title": "언어",
+      "en": "영어",
+      "es": "스페인어",
+      "ca": "카탈루냐어",
+      "de": "독일어",
+      "pt": "포르투갈어",
+      "ko": "한국어",
+      "zh": "중국어"
+    },
+    "charts": {
+      "title": "데이터 시각화",
+      "salesUnits": "판매 단위",
+      "stockTotal": "총 재고",
+      "salesVsStock": "판매 대 재고",
+      "distributionByCategory": "카테고리별 분포",
+      "salesByCategory": "카테고리별 판매 단위",
+      "stockByCategory": "카테고리별 총 재고",
+      "salesDistribution": "판매 분포",
+      "noData": "차트를 표시할 데이터가 없습니다",
+      "categoryPerformance": "카테고리 성능 매트릭스",
+      "intensityScale": "강도 척도",
+      "low": "낮음",
+      "high": "높음",
+      "heatmapDescription": "색상 강도는 카테고리 간 정규화된 메트릭 값을 나타냅니다"
+    },
+    "seo": {
+      "description": "카밀라 제품 대시보드 - 전자상거래 최적화를 위한 지능형 제품 순위 및 분류 시스템."
+    },
+    "accessibility": {
+      "skipToContent": "본문으로 건너뛰기",
+      "loading": "콘텐츠 로딩 중",
+      "loadedSuccess": "성공적으로 로드됨"
+    },
+    "apiSelector": {
+      "title": "API 유형",
+      "restDescription": "RESTful API 엔드포인트 사용",
+      "graphqlDescription": "GraphQL 쿼리 언어 사용",
+      "grpcDescription": "gRPC 고성능 RPC 사용",
+      "rsocketDescription": "RSocket 반응형 메시징 사용"
+    },
+    "footer": {
+      "description": "엔터프라이즈 제품 관리 플랫폼",
+      "license": "라이선스",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "자유 및 오픈 소스 소프트웨어",
+      "resources": "리소스",
+      "protocols": "API 프로토콜",
+      "copyright": "Camila Services Dashboard. 모든 권리 보유.",
+      "builtWith": "제작",
+      "using": "사용"
+    }
+  }
+}

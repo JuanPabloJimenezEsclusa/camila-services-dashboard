@@ -1,0 +1,44 @@
+services:
+  camila-product-react-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: camila-product-react-ui
+    ports:
+      - "3030:80"
+    environment:
+      # Authentication Configuration
+      VITE_AUTH_AUTHORITY: ${VITE_AUTH_AUTHORITY:-http://keycloak:9191/realms/camila-realm}
+      VITE_AUTH_CLIENT_ID: ${VITE_AUTH_CLIENT_ID:-camila-client}
+      VITE_AUTH_CLIENT_SECRET: ${VITE_AUTH_CLIENT_SECRET:-Fuvf8XyBDXxU57NAOOFZVvdUIPmGgiyE}
+
+      # Backend API Configuration
+      # Use relative paths for same-origin or provide full URLs for cross-origin
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://gateway:8090/product-dev/api}
+      VITE_GRAPHQL_ENDPOINT: ${VITE_GRAPHQL_ENDPOINT:-http://gateway:8090/product-dev/api/graphql}
+      VITE_GRPC_ENDPOINT: ${VITE_GRPC_ENDPOINT:-http://envoy:8765}
+      VITE_RSOCKET_URL: ${VITE_RSOCKET_URL:-ws://gateway:7000/product-dev/api/rsocket}
+
+      # Application Configuration
+      VITE_API_VERSION: ${VITE_API_VERSION:-1.0.0}
+      VITE_DEFAULT_LANGUAGE: ${VITE_DEFAULT_LANGUAGE:-en-US}
+    networks:
+      - camila-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3030/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  camila-network:
+    driver: bridge
+
+# Example usage with backend services:
+# docker-compose up -d
+#
+# To override environment variables, create a .env file:
+# VITE_AUTH_AUTHORITY=https://auth.example.com/realms/camila-realm
+# VITE_API_BASE_URL=https://api.example.com/product-dev/api

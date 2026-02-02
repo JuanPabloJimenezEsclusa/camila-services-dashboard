@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "Panel de Productos Camila",
+    "searchById": "Buscar por ID",
+    "searchPlaceholder": "Ingrese el ID interno del producto",
+    "searchButton": "Buscar",
+    "clearButton": "Limpiar",
+    "loading": "Cargando...",
+    "loadingProduct": "Cargando producto...",
+    "loadingProducts": "Cargando productos...",
+    "auth": {
+      "loginRequired": "Iniciar Sesión",
+      "loginMessage": "Accede a tu Panel de Análisis de Productos",
+      "loginButton": "Iniciar Sesión",
+      "logout": "Cerrar Sesión",
+      "authenticating": "Autenticando...",
+      "profile": "Perfil",
+      "feature1": "Análisis en Tiempo Real",
+      "feature2": "Búsqueda Avanzada",
+      "feature3": "APIs Multi-Protocolo",
+      "footerText": "JPJE - Plataforma Empresarial de Gestión de Productos"
+    },
+    "rangeConfig": {
+      "title": "Configuración de Rango de Pesos",
+      "show": "Mostrar",
+      "hide": "Ocultar",
+      "settings": "Configuración",
+      "minWeight": "Peso Mínimo",
+      "maxWeight": "Peso Máximo",
+      "range": "Rango"
+    },
+    "weightForm": {
+      "title": "Configuración de Pesos del Producto",
+      "salesUnits": "Peso de Unidades Vendidas",
+      "stock": "Peso de Stock",
+      "profitMargin": "Peso de Margen de Beneficio",
+      "daysInStock": "Peso de Días en Stock",
+      "page": "Página",
+      "pageSize": "Tamaño de Página"
+    },
+    "product": {
+      "id": "ID",
+      "category": "Categoría",
+      "salesUnits": "Unidades Vendidas",
+      "profitMargin": "Margen de Beneficio",
+      "daysInStock": "Días en Stock",
+      "stock": "Stock",
+      "total": "Total"
+    },
+    "products": "Productos",
+    "noProducts": "No se encontraron productos con la configuración de pesos actual.",
+    "theme": {
+      "light": "Modo Claro",
+      "dark": "Modo Oscuro",
+      "toggle": "Cambiar Tema"
+    },
+    "language": {
+      "title": "Idioma",
+      "en": "Inglés",
+      "es": "Español",
+      "ca": "Catalán",
+      "de": "Alemán",
+      "pt": "Portugués",
+      "ko": "Coreano",
+      "zh": "Chino"
+    },
+    "charts": {
+      "title": "Visualización de Datos",
+      "salesUnits": "Unidades Vendidas",
+      "stockTotal": "Stock Total",
+      "salesVsStock": "Ventas vs Stock",
+      "distributionByCategory": "Distribución por Categoría",
+      "salesByCategory": "Unidades Vendidas por Categoría",
+      "stockByCategory": "Stock Total por Categoría",
+      "salesDistribution": "Distribución de Ventas",
+      "noData": "No hay datos disponibles para mostrar gráficos",
+      "categoryPerformance": "Matriz de Rendimiento por Categoría",
+      "intensityScale": "Escala de Intensidad",
+      "low": "Bajo",
+      "high": "Alto",
+      "heatmapDescription": "La intensidad del color representa valores métricos normalizados entre categorías"
+    },
+    "seo": {
+      "description": "Panel de Productos Camila - Sistema inteligente de clasificación y ranking de productos para optimización de e-commerce."
+    },
+    "accessibility": {
+      "skipToContent": "Saltar al contenido principal",
+      "loading": "Cargando contenido",
+      "loadedSuccess": "cargados exitosamente"
+    },
+    "apiSelector": {
+      "title": "Tipo de API",
+      "restDescription": "Usando endpoints de API RESTful",
+      "graphqlDescription": "Usando lenguaje de consulta GraphQL",
+      "grpcDescription": "Usando gRPC RPC de alto rendimiento",
+      "rsocketDescription": "Usando mensajería reactiva RSocket"
+    },
+    "footer": {
+      "description": "Plataforma Empresarial de Gestión de Productos",
+      "license": "Licencia",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "Software libre y de código abierto",
+      "resources": "Recursos",
+      "protocols": "Protocolos API",
+      "copyright": "Camila Services Dashboard. Todos los derechos reservados.",
+      "builtWith": "Construido con",
+      "using": "usando"
+    }
+  }
+}

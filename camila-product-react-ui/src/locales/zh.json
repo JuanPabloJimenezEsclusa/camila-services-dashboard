@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "Camila 产品仪表板",
+    "searchById": "按 ID 搜索",
+    "searchPlaceholder": "输入产品内部 ID",
+    "searchButton": "搜索",
+    "clearButton": "清除",
+    "loading": "加载中...",
+    "loadingProduct": "产品加载中...",
+    "loadingProducts": "产品加载中...",
+    "auth": {
+      "loginRequired": "登录",
+      "loginMessage": "访问您的产品分析仪表板",
+      "loginButton": "登录",
+      "logout": "退出",
+      "authenticating": "认证中...",
+      "profile": "个人资料",
+      "feature1": "实时分析",
+      "feature2": "高级搜索",
+      "feature3": "多协议API",
+      "footerText": "JPJE - 企业产品管理平台"
+    },
+    "rangeConfig": {
+      "title": "权重范围配置",
+      "show": "显示",
+      "hide": "隐藏",
+      "settings": "设置",
+      "minWeight": "最小权重",
+      "maxWeight": "最大权重",
+      "range": "范围"
+    },
+    "weightForm": {
+      "title": "产品权重配置",
+      "salesUnits": "销售单位权重",
+      "stock": "库存权重",
+      "profitMargin": "利润率权重",
+      "daysInStock": "库存天数权重",
+      "page": "页面",
+      "pageSize": "页面大小"
+    },
+    "product": {
+      "id": "ID",
+      "category": "类别",
+      "salesUnits": "销售单位",
+      "profitMargin": "利润率",
+      "daysInStock": "库存天数",
+      "stock": "库存",
+      "total": "总计"
+    },
+    "products": "产品",
+    "noProducts": "未找到符合当前权重配置的产品。",
+    "theme": {
+      "light": "浅色模式",
+      "dark": "深色模式",
+      "toggle": "切换主题"
+    },
+    "language": {
+      "title": "语言",
+      "en": "英语",
+      "es": "西班牙语",
+      "ca": "加泰罗尼亚语",
+      "de": "德语",
+      "pt": "葡萄牙语",
+      "ko": "韩语",
+      "zh": "中文"
+    },
+    "charts": {
+      "title": "数据可视化",
+      "salesUnits": "销售单位",
+      "stockTotal": "总库存",
+      "salesVsStock": "销售与库存",
+      "distributionByCategory": "按类别分布",
+      "salesByCategory": "按类别销售单位",
+      "stockByCategory": "按类别总库存",
+      "salesDistribution": "销售分布",
+      "noData": "没有可显示图表的数据",
+      "categoryPerformance": "类别性能矩阵",
+      "intensityScale": "强度标度",
+      "low": "低",
+      "high": "高",
+      "heatmapDescription": "颜色强度表示各类别的标准化指标值"
+    },
+    "seo": {
+      "description": "Camila 产品仪表板 - 用于电子商务优化的智能产品排名和分类系统。"
+    },
+    "accessibility": {
+      "skipToContent": "跳转到主要内容",
+      "loading": "内容加载中",
+      "loadedSuccess": "成功加载"
+    },
+    "apiSelector": {
+      "title": "API 类型",
+      "restDescription": "使用 RESTful API 端点",
+      "graphqlDescription": "使用 GraphQL 查询语言",
+      "grpcDescription": "使用 gRPC 高性能 RPC",
+      "rsocketDescription": "使用 RSocket 响应式消息传递"
+    },
+    "footer": {
+      "description": "企业产品管理平台",
+      "license": "许可证",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "自由和开源软件",
+      "resources": "资源",
+      "protocols": "API协议",
+      "copyright": "Camila Services Dashboard. 保留所有权利。",
+      "builtWith": "构建使用",
+      "using": "使用"
+    }
+  }
+}

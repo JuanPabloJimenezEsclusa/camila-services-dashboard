@@ -1,0 +1,156 @@
+# Dependabot configuration for automated dependency updates
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+
+updates:
+  # Node.js dependencies for React UI
+  - package-ecosystem: "npm"
+    directory: "/camila-product-react-ui"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Europe/Madrid"
+    open-pull-requests-limit: 10
+    pull-request-branch-name:
+      separator: "-"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "npm"
+      - "automated"
+    assignees:
+      - "JuanPabloJimenezEsclusa"
+    reviewers:
+      - "JuanPabloJimenezEsclusa"
+    # Group updates by dependency type
+    groups:
+      # Production dependencies
+      node-production:
+        patterns:
+          - "react*"
+          - "axios"
+          - "graphql*"
+          - "grpc-*"
+          - "rsocket-*"
+          - "chart.js"
+          - "i18next"
+          - "oidc-client-ts"
+          - "protobufjs"
+          - "react-router-dom"
+          - "react-helmet-async"
+          - "react-i18next"
+          - "react-chartjs-2"
+          - "cbor-x"
+          - "lodash.*"
+          - "web-vitals"
+        update-types:
+          - "minor"
+          - "patch"
+      
+      # Development dependencies
+      node-development:
+        patterns:
+          - "@types/*"
+          - "@testing-library/*"
+          - "@vitest/*"
+          - "@playwright/*"
+          - "vitest"
+          - "playwright"
+          - "eslint*"
+          - "@eslint/*"
+          - "typescript*"
+          - "@typescript-eslint/*"
+          - "vite*"
+          - "@vitejs/*"
+          - "msw"
+          - "happy-dom"
+          - "jsdom"
+        update-types:
+          - "minor"
+          - "patch"
+      
+      # Build tools and tooling
+      node-tooling:
+        patterns:
+          - "@openapitools/*"
+          - "grpc-tools"
+          - "globals"
+        update-types:
+          - "minor"
+          - "patch"
+    # Version update strategies
+    versioning-strategy: auto
+    # Ignore specific dependencies (if needed)
+    ignore:
+      # Ignore major version updates for critical dependencies
+      # Uncomment and customize as needed
+      # - dependency-name: "react"
+      #   update-types: ["version-update:semver-major"]
+
+  # Docker dependencies
+  - package-ecosystem: "docker"
+    directory: "/camila-product-react-ui"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "10:00"
+      timezone: "Europe/Madrid"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(docker)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "docker"
+      - "automated"
+    assignees:
+      - "JuanPabloJimenezEsclusa"
+    reviewers:
+      - "JuanPabloJimenezEsclusa"
+    # Group Docker updates
+    groups:
+      docker-images:
+        patterns:
+          - "node"
+          - "nginx"
+        update-types:
+          - "minor"
+          - "patch"
+    # Only patch and minor updates for Docker base images
+    ignore:
+      - dependency-name: "node"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "nginx"
+        update-types: ["version-update:semver-major"]
+
+  # GitHub Actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "11:00"
+      timezone: "Europe/Madrid"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(ci)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "automated"
+    assignees:
+      - "JuanPabloJimenezEsclusa"
+    reviewers:
+      - "JuanPabloJimenezEsclusa"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"

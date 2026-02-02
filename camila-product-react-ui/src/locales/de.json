@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "appTitle": "Camila Produkt-Dashboard",
+    "searchById": "Nach ID suchen",
+    "searchPlaceholder": "Interne Produkt-ID eingeben",
+    "searchButton": "Suchen",
+    "clearButton": "Löschen",
+    "loading": "Wird geladen...",
+    "loadingProduct": "Produkt wird geladen...",
+    "loadingProducts": "Produkte werden geladen...",
+    "auth": {
+      "loginRequired": "Anmelden",
+      "loginMessage": "Zugriff auf Ihr Produktanalyse-Dashboard",
+      "loginButton": "Anmelden",
+      "logout": "Abmelden",
+      "authenticating": "Authentifizierung...",
+      "profile": "Profil",
+      "feature1": "Echtzeit-Analyse",
+      "feature2": "Erweiterte Suche",
+      "feature3": "Multi-Protokoll-APIs",
+      "footerText": "JPJE - Enterprise-Produktmanagement-Plattform"
+    },
+    "rangeConfig": {
+      "title": "Gewichtsbereichskonfiguration",
+      "show": "Anzeigen",
+      "hide": "Verbergen",
+      "settings": "Einstellungen",
+      "minWeight": "Mindestgewicht",
+      "maxWeight": "Maximalgewicht",
+      "range": "Bereich"
+    },
+    "weightForm": {
+      "title": "Produktgewichtskonfiguration",
+      "salesUnits": "Verkaufseinheiten-Gewicht",
+      "stock": "Lagergewicht",
+      "profitMargin": "Gewinnspannen-Gewicht",
+      "daysInStock": "Tage im Lager-Gewicht",
+      "page": "Seite",
+      "pageSize": "Seitengröße"
+    },
+    "product": {
+      "id": "ID",
+      "category": "Kategorie",
+      "salesUnits": "Verkaufseinheiten",
+      "profitMargin": "Gewinnspanne",
+      "daysInStock": "Tage im Lager",
+      "stock": "Lager",
+      "total": "Gesamt"
+    },
+    "products": "Produkte",
+    "noProducts": "Keine Produkte mit der aktuellen Gewichtskonfiguration gefunden.",
+    "theme": {
+      "light": "Heller Modus",
+      "dark": "Dunkler Modus",
+      "toggle": "Thema wechseln"
+    },
+    "language": {
+      "title": "Sprache",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "ca": "Katalanisch",
+      "de": "Deutsch",
+      "pt": "Portugiesisch",
+      "ko": "Koreanisch",
+      "zh": "Chinesisch"
+    },
+    "charts": {
+      "title": "Datenvisualisierung",
+      "salesUnits": "Verkaufseinheiten",
+      "stockTotal": "Gesamtlager",
+      "salesVsStock": "Verkäufe vs Lager",
+      "distributionByCategory": "Verteilung nach Kategorie",
+      "salesByCategory": "Verkaufseinheiten nach Kategorie",
+      "stockByCategory": "Gesamtlager nach Kategorie",
+      "salesDistribution": "Verkaufsverteilung",
+      "noData": "Keine Daten zur Anzeige von Diagrammen verfügbar",
+      "categoryPerformance": "Kategorieleistungsmatrix",
+      "intensityScale": "Intensitätsskala",
+      "low": "Niedrig",
+      "high": "Hoch",
+      "heatmapDescription": "Die Farbintensität stellt normalisierte Metrikwerte über Kategorien hinweg dar"
+    },
+    "seo": {
+      "description": "Camila Produkt-Dashboard - Intelligentes Produkt-Ranking- und Klassifizierungssystem zur E-Commerce-Optimierung."
+    },
+    "accessibility": {
+      "skipToContent": "Zum Hauptinhalt springen",
+      "loading": "Inhalt wird geladen",
+      "loadedSuccess": "erfolgreich geladen"
+    },
+    "apiSelector": {
+      "title": "API-Typ",
+      "restDescription": "Verwenden von RESTful-API-Endpunkten",
+      "graphqlDescription": "Verwenden der GraphQL-Abfragesprache",
+      "grpcDescription": "Verwenden von gRPC Hochleistungs-RPC",
+      "rsocketDescription": "Verwenden von RSocket reaktivem Messaging"
+    },
+    "footer": {
+      "description": "Enterprise-Produktmanagement-Plattform",
+      "license": "Lizenz",
+      "licenseName": "GNU GPL v3.0",
+      "licenseNote": "Freie und quelloffene Software",
+      "resources": "Ressourcen",
+      "protocols": "API-Protokolle",
+      "copyright": "Camila Services Dashboard. Alle Rechte vorbehalten.",
+      "builtWith": "Erstellt mit",
+      "using": "mit"
+    }
+  }
+}
